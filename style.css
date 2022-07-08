@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(24, 24, 24);
+    color:  greenyellow;
+    background-image: url(https://i.pinimg.com/originals/e7/26/97/e72697f0e27e9ffe53089c1ade7593ee.gif);
+    background-size: cover;
+}
+.formulario{
+    background-color: rgba(33, 33, 33, 0.744);
+    height: 80vh;
+    width: 80%;
+    margin-left: 20vh;
+    margin-top: 7vh;
+}
+
+input, textarea{
+    width: 50%;
+    border: solid 2px rgb(32, 32, 32);
+    background-color: black;
+    height: 7vh;
+    margin-left: 12vh;
+    color: rgb(85, 255, 0);
+    border-radius: 1vh;
+}
+
+#letters{
+    margin-left: 13vh;
+}
+button{
+    background-color: black;
+    color: greenyellow;
+    width: 30%;
+    height: 7vh;
+    margin-left: 2vh;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: rgba(211, 253, 0, 0.156);
+}
+
+article{
+    margin-top: -63vh;
+    margin-left: 126vh;
+}
+#zero {
+    width: 60%;
+    height: 28vh;
+    border-radius: 2vh;
+}
+
+a{
+    color: rgb(85, 255, 0);
+    font-size: 5vh;
+}
+@media (max-width: 600px) {
+    .formulario {
+      width: 90%;
+      margin-left: 4vh;
+      height: 100%;
+
+    }
+
+    input{
+        margin-left: 3vh;
+        width: 90%;
+    }
+    textarea{
+   margin-left: 3vh;
+   height: 15vh;
+    }
+    #letters{
+        margin-left: 3vh;
+    }
+    article{
+       
+        margin-left: 1vh;
+        margin-top: 37vh;
+        width: 100%;
+        text-align: center;
+        color: white;
+
+    }
+  }
+
